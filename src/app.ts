@@ -4,10 +4,11 @@ import chalk from 'chalk';
 import puppeteer from 'puppeteer';
 import clipboardy from 'clipboardy';
 import { clean, logErrorAndExit, saveScreenshot, sleep } from './helpers';
-
-const userName: string = '';
-const password: string = '';
-const url: string = '';
+// test
+const userName: string = 'ibrahim.ragab@beyond-solution.com';
+const password: string = 'Yuribenjamin!((@';
+const url: string =
+  'http://cs.beyond-solution.stag.s3-website.us-east-2.amazonaws.com/login';
 
 /**
  * @param url
